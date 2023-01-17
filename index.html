@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <img src="./image/housen.png" id="logo">
+        <ul class="nav-top" id="nav-items">
+            <li>Buy a house </li>
+            <li>Rent a house </li>
+            <li>Mortgage </li>
+        </ul>
+        <img src="./image/Vector.png" id="toggle-theme" onclick="toggleDarkMode()">
+    </nav>
+
+    <section>
+        <h1 id="h1-text">Find your ideal home</h1>
+        <p id="p-text">Search from more than 19 million of inspected appartments, houses, cottages, villas, manors and
+            mansions.</p>
+        <div id="search-container">
+            <form action="">
+                <img src="./image/Ellipse.png" id="search-icon" onclick="filterCards()">
+                <input type="text" id="search-input" placeholder="Search for address">
+                <button class="input-button" type="submit">Search</button>
+            </form>
+        </div>
+        <div id="card-container">
+            <div class="card">
+
+                <h2 class="card-title">Calabasas, CA</h2>
+                <p class="card-text">$1.5k+ / 2 Beds / Appt. ... 3 more </p>
+            </div>
+            <div class="card">
+
+                <h2 class="card-title">Long Beach, CA</h2>
+                <p class="card-text">$2.0k+ / 1 Bed / Appt. ... 3 more </p>
+            </div>
+            <div class="card">
+
+                <h2 class="card-title">Fullerton, CA</h2>
+                <p class="card-text">$2.5k+ / 2 Beds / Appt. ... 3 more </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="copyright">Housen © 2020</div>
+
+        <ul id="footer-items">
+            <li>Buy a house</li>
+            <li>Rent a house</li>
+            <li>Mortgage</li>
+        </ul>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
